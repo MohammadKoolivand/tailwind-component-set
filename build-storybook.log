@@ -1,19 +1,19 @@
 
 > my-next-app@0.1.0 build-storybook
-> storybook build "--output-dir=C:\\Users\\MOHAMM~1\\AppData\\Local\\Temp\\chromatic--9664-dl67iSKys65T"
+> storybook build "--output-dir=C:\\Users\\MOHAMM~1\\AppData\\Local\\Temp\\chromatic--776-a6q11MoXV8Ty"
 
 [1m@storybook/core v8.4.7
 [22m
-info => Cleaning outputDir: [36mC:\Users\MOHAMM~1\AppData\Local\Temp\chromatic--9664-dl67iSKys65T[39m
+info => Cleaning outputDir: [36mC:\Users\MOHAMM~1\AppData\Local\Temp\chromatic--776-a6q11MoXV8Ty[39m
 info => Loading presets
 info => Building manager..
-info => Manager built ([38;2;181;126;229m1.16 s[39m)
+info => Manager built ([38;2;181;126;229m1.06 s[39m)
 info => Building preview..
 info Addon-docs: using MDX3
 info => Using implicit CSS loaders
 info => Using SWC as compiler
 info => Using default Webpack5 setup
-info => Copying static files: [36mpublic[39m at [36mC:\Users\MOHAMM~1\AppData\Local\Temp\chromatic--9664-dl67iSKys65T[39m
+info => Copying static files: [36mpublic[39m at [36mC:\Users\MOHAMM~1\AppData\Local\Temp\chromatic--776-a6q11MoXV8Ty[39m
 info Using tsconfig paths for react-docgen
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
@@ -30,5 +30,5 @@ WARN       runtime~main.052c89a6.iframe.bundle.js
 WARN       176.134798c3.iframe.bundle.js
 WARN       main.46128ec2.iframe.bundle.js
 WARN 
-info => Preview built ([38;2;181;126;229m1.32 min[39m)
-info => Output directory: C:\Users\MOHAMM~1\AppData\Local\Temp\chromatic--9664-dl67iSKys65T
+info => Preview built ([38;2;181;126;229m1.25 min[39m)
+info => Output directory: C:\Users\MOHAMM~1\AppData\Local\Temp\chromatic--776-a6q11MoXV8Ty

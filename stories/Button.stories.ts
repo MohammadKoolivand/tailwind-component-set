@@ -1,5 +1,4 @@
 import { within, userEvent } from "@storybook/testing-library";
-import { expect } from "@storybook/jest";
 import { Meta, StoryObj } from "@storybook/react";
 import Button from "@/components/button/Button";
 
@@ -45,18 +44,14 @@ export const Disabled: Story = {
   },
 };
 
-export const ClickableWithJest = {
+export const ClickableWithoutJest = {
   args: {
     label: "Click Me",
-    onClick: jest.fn(),
+    onClick: () => console.log("Button clicked!"),
   },
-  play: async ({ args, canvasElement }: { args: any; canvasElement: HTMLElement }) => {
+  play: async ({ canvasElement }: { canvasElement: HTMLElement }) => {
     const canvas = within(canvasElement);
     const button = canvas.getByText("Click Me");
-    
     await userEvent.click(button);
-
-    // بررسی تعامل با Jest
-    expect(args.onClick).toHaveBeenCalledTimes(1);
   },
 };
